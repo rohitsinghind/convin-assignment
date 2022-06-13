@@ -31,7 +31,7 @@ export default function User({id}) {
         </Box> 
         :<>
         <Box sx={styles.center}>
-        <Avatar sx={styles.avatar} alt="" src="https://reqres.in/img/faces/2-image.jpg" />
+        <Avatar sx={styles.avatar} alt="" src={user?.data?.avatar} />
         </Box>
         <Box sx={styles.details}>
         <Box>
